@@ -1,5 +1,5 @@
 require 'pry'
-names = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
+names = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz", "Arel"]
 
 def badge_maker(names)
   names.each do |name|
