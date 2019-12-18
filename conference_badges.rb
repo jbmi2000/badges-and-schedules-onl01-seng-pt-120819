@@ -6,11 +6,11 @@ end
 
 return badge_maker("Arel")
 
-names = ["Edsger","Ada","Charles","Alan","Grace","Linus","Matz"]
+attendees = ["Edsger","Ada","Charles","Alan","Grace","Linus","Matz"]
 
-def batch_badge_creator(names)
-  names.each do |name|
-    return "Hello, my name is #{name}"
+def batch_badge_creator(attendees)
+  attendees.each do |speaker|
+    return "Hello, my name is #{speaker}"
 
   end
 end
