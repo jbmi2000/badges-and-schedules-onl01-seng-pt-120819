@@ -8,4 +8,4 @@ end
 return badge
 end
 
-badge_maker("Edsger")
+badge_maker(names)
