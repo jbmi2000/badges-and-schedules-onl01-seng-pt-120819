@@ -5,6 +5,6 @@ def badge_maker(names)
   names.each do |name|
     puts "Hello, my name is #{name}."
   end
-  name
+  names
 end
 badge_maker(names)
