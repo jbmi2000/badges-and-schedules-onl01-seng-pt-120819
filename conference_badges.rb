@@ -15,4 +15,4 @@ def batch_badge_creator(attendees)
   end
 end
 
-batch_badge_creator(names)
+return batch_badge_creator(attendees)
