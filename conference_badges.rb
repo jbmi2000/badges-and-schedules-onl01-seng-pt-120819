@@ -1,9 +1,9 @@
 require 'pry'
-name = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
+names = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 
-def badge_maker(name)
-  name.each do |names|
+def badge_maker(names)
+  names.each do |name|
   puts "Hello, my name is #{name}."
   end
-  return badge_maker(name)
+  return badge_maker(names)
 end
