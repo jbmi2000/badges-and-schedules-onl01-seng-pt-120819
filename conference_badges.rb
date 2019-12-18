@@ -4,7 +4,7 @@ def badge_maker(name)
   return "Hello, my name is #{name}."
 end
 
-badge_maker("Arel")
+return badge_maker("Arel")
 binding.pry
 names = ["Edsger","Ada","Charles","Alan","Grace","Linus","Matz"]
 
