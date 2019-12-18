@@ -7,3 +7,4 @@ def badge_maker(names)
   end
   name
 end
+badge_maker(names)
