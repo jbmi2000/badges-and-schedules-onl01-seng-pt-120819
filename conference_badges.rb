@@ -7,4 +7,4 @@ def badge_maker(names)
   end
 
 end
-puts badge_maker(names)
+#puts badge_maker(names)
